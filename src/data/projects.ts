@@ -8,6 +8,7 @@ export const projects = [
     stack: ["Ruby on Rails", "PostgreSQL", "CSS", "Cloudinary"],
     repo: "https://github.com/MooseCowBear/social",
     live: "https://so-social.fly.dev/",
+    wip: false,
   },
   {
     name: "Chat App",
@@ -24,6 +25,7 @@ export const projects = [
     ],
     repo: "https://github.com/MooseCowBear/chat-app",
     live: "https://dawn-sound-3814.fly.dev/",
+    wip: false,
   },
   {
     name: "Shoe Quiver",
@@ -32,6 +34,9 @@ export const projects = [
       "Features: Stimulus JS controller to keep current shoes sorted by the date they were last run in to encourage rotation, run tracking and basic stats, an archive so that users never risk forgetting their favorite models",
     ],
     stack: ["Ruby on Rails", "PostgreSQL", "Tailwind CSS"],
+    repo: "https://github.com/MooseCowBear/shoe-quiver",
+    live: "https://shoe-quiver.fly.dev/",
+    wip: false,
   },
   {
     name: "Plttr",
@@ -41,5 +46,42 @@ export const projects = [
       "Outputs regression coefficients, RMSE, and a plot with optional error bars",
     ],
     stack: ["JavaScript", "HTML", "CSS", "Plotly.js"],
+    repo: "https://github.com/MooseCowBear/plttr",
+    live: "https://moosecowbear.github.io/plttr/",
+    wip: false,
+  },
+  {
+    name: "Cyrano",
+    bullets: ["A full-stack marketplace for writers"],
+    stack: ["Ruby on Rails", "PostgreSQL", "Tailwind CSS"],
+    repo: "https://github.com/MooseCowBear/cyrano",
+    live: null,
+    wip: true,
+  },
+  {
+    name: "Where's Waldo: Dutch Masters Editiion",
+    bullets: ["A photo-tagging game with 4 levels of increasing difficulty"],
+    stack: ["React JS", "Ruby on Rails", "PostgreSQL", "CSS"],
+    repo: "https://github.com/MooseCowBear/waldo_game",
+    live: null,
+    wip: false,
+  },
+  {
+    name: "Mini Project: Drag and drop Stimulus Controller",
+    bullets: [
+      "A Stimulus JS controller to allow reordering of elements in the DOM through drag and drop API",
+    ],
+    stack: ["Ruby on Rails"],
+    repo: "https://github.com/MooseCowBear/drag_and_drop_stimulus",
+    live: null,
+    wip: false,
+  },
+  {
+    name: "Battleship",
+    bullets: ["An implementation of the classic board game"],
+    stack: ["JavaScript", "Tailwind CSS", "Webpack"],
+    repo: "https://github.com/MooseCowBear/odin-battleship",
+    live: "https://moosecowbear.github.io/odin-battleship/",
+    wip: false
   },
 ];
