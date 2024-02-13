@@ -82,6 +82,9 @@ export const projects = [
     stack: ["JavaScript", "Tailwind CSS", "Webpack"],
     repo: "https://github.com/MooseCowBear/odin-battleship",
     live: "https://moosecowbear.github.io/odin-battleship/",
-    wip: false
+    wip: false,
   },
 ];
+
+// hopefully making it easier to swap out
+export const featured = ["So Social", "Chat App", "Shoe Quiver", "Plttr"];
