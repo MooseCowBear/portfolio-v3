@@ -1,7 +1,8 @@
-// function to get first paragraph from article object (without the <p> tags)
-
-// function to make the date readable
-
 export const dateDisplay = (date: string) => {
   return new Date(date).toLocaleDateString();
+};
+
+export const displayContent = (content: string) => {
+  const endParagraph = content.indexOf("</p>");
+  return content.slice(4, endParagraph) + "...";
 };
