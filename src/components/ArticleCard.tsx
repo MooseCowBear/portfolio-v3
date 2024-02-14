@@ -1,4 +1,5 @@
 import { dateDisplay, displayContent } from "../utils/articles";
+import { Tag } from "./Tag";
 import "../styles/blog.css";
 
 type ArticleCardProps = {
@@ -13,9 +14,16 @@ export function ArticleCard({ article }: ArticleCardProps) {
         <span>{dateDisplay(article.pubDate)}</span>
       </div>
       <p>{displayContent(article.content)}</p>
-      <a href={article.link} target="_blank" rel="noreferrer nofollow">
-        view on Medium
-      </a>
+      <div className="footer">
+        <div className="tags">
+          {article.categories.map((category) => {
+            return <Tag key={category} tag={category} />;
+          })}
+        </div>
+        <a href={article.link} target="_blank" rel="noreferrer nofollow">
+          view on Medium
+        </a>
+      </div>
     </div>
   );
 }

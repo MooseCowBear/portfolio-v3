@@ -8,14 +8,14 @@
 .article {
   display: flex;
   flex-direction: column;
-  gap: 0.3rem;
+  gap: 1em;
   padding: 2em;
   border-radius: 10px;
   background-color: var(--background-card);
   box-shadow: 2px 2px 12px 1px rgba(0, 0, 0, 0.2);
 }
 
-.article .header {
+.article .header, .article .footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -33,4 +33,11 @@
 
 .article a {
   align-self: flex-end;
+  white-space: nowrap;
+}
+
+.article .tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8em;
 }
