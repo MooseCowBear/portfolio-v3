@@ -1,11 +1,14 @@
 import { useEffect, useState } from "react";
 
+// only want to run this if we haven't already...
 export const useArticles = () => {
-  const [articles, setArticles] = useState();
+  const initialArticles: Article[] = [];
+  const [articles, setArticles] = useState(initialArticles);
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    console.log("fetching...");
     const abortController = new AbortController();
 
     const getArticles = async () => {
@@ -20,12 +23,13 @@ export const useArticles = () => {
           throw new Error("server error");
         }
         const data = await response.json();
-        setArticles(data);
+        setArticles(data.items);
         setError(false);
       } catch (e) {
         setError(true);
       } finally {
         setLoading(false);
+        setError(false);
       }
     };
     getArticles();
@@ -35,5 +39,6 @@ export const useArticles = () => {
     };
   }, []);
 
+  console.log(articles);
   return { articles, error, loading };
 };

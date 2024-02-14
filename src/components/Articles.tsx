@@ -1,13 +1,18 @@
-import { useArticles } from "../hooks/useArticles";
+import "../styles/blog.css";
+import { ArticleCard } from "./ArticleCard";
 
-// would be better not to fetch every time, just once per
+type ArticlesProps = {
+  articles: Article[];
+};
 
-export function Articles() {
-  const { articles, error, loading } = useArticles();
+export function Articles({ articles }: ArticlesProps) {
+  console.log("passed as props", articles);
 
-  if (error) return <p>something went wrong</p>;
-  if (loading) return <p>loading...</p>;
-  console.log(articles);
-
-  return null;
+  return (
+    <div className="article-container">
+      {articles.map((article) => {
+        return <ArticleCard key={article.guid} article={article} />;
+      })}
+    </div>
+  );
 }

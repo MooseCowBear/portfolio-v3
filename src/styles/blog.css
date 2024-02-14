@@ -1,0 +1,25 @@
+.article-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 1em;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.article .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.article h2 {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
