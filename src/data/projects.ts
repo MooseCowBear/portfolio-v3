@@ -55,7 +55,6 @@ export const projects = [
     bullets: ["A full-stack marketplace for writers"],
     stack: ["Ruby on Rails", "PostgreSQL", "Tailwind CSS"],
     repo: "https://github.com/MooseCowBear/cyrano",
-    live: null,
     wip: true,
   },
   {
@@ -63,7 +62,6 @@ export const projects = [
     bullets: ["A photo-tagging game with 4 levels of increasing difficulty"],
     stack: ["React JS", "Ruby on Rails", "PostgreSQL", "CSS"],
     repo: "https://github.com/MooseCowBear/waldo_game",
-    live: null,
     wip: false,
   },
   {
@@ -73,7 +71,6 @@ export const projects = [
     ],
     stack: ["Ruby on Rails"],
     repo: "https://github.com/MooseCowBear/drag_and_drop_stimulus",
-    live: null,
     wip: false,
   },
   {

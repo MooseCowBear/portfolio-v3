@@ -12,3 +12,12 @@ type Article = {
   thumbnail: string;
   title: string;
 };
+
+type Project = {
+  name: string;
+  bullets: string[];
+  stack: string[];
+  repo: string;
+  live?: string;
+  wip: boolean;
+};
