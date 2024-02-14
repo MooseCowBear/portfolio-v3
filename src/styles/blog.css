@@ -33,8 +33,19 @@
 }
 
 .article a {
+  display: flex;
+  gap: 0.2em;
+  align-items: center;
   align-self: flex-end;
   white-space: nowrap;
+  text-decoration: none;
+  font-size: 0.9em;
+  text-transform: lowercase;
+}
+
+.article a svg {
+  height: 15px;
+  width: 15px;
 }
 
 .article .tags {

@@ -190,3 +190,18 @@ button {
   background-color: transparent;
   border: none;
 }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: var(--accent);
+}
+
+a:hover svg,
+a:focus svg {
+  fill: var(--accent);
+}
