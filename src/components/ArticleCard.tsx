@@ -21,7 +21,7 @@ export function ArticleCard({ article }: ArticleCardProps) {
           })}
         </div>
         <a href={article.link} target="_blank" rel="noreferrer nofollow">
-          view on Medium
+          Read on Medium
         </a>
       </div>
     </div>
