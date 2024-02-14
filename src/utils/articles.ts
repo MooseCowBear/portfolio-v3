@@ -3,6 +3,7 @@ export const dateDisplay = (date: string) => {
 };
 
 export const displayContent = (content: string) => {
-  const endParagraph = content.indexOf("</p>");
-  return content.slice(4, endParagraph) + "...";
+  const startParagraph = content.indexOf(">");
+  const endParagraph = content.indexOf(".</p>");
+  return content.slice(startParagraph + 1, endParagraph) + "...";
 };
