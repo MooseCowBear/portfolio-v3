@@ -18,8 +18,8 @@ export function ProjectCard({ project }: ProjectCardProps) {
             {project.wip && <Tag tag={"wip"}/>}
           </div>
           <ul>
-            {project.bullets.map((bullet) => {
-              return <li>{bullet}</li>;
+            {project.bullets.map((bullet, index) => {
+              return <li key={index}>{bullet}</li>;
             })}
             <li>{`Built with: ${project.stack.join(", ")}`}</li>
           </ul>
