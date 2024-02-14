@@ -10,6 +10,7 @@ export function Articles({ articles }: ArticlesProps) {
 
   return (
     <div className="article-container">
+      <h1>blog</h1>
       {articles.map((article) => {
         return <ArticleCard key={article.guid} article={article} />;
       })}

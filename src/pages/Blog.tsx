@@ -8,7 +8,6 @@ export default function Blog() {
   return (
     <>
       <Navigation />
-      <h1>blog</h1>
       <Articles articles={articles} />
     </>
   );

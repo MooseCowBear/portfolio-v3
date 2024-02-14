@@ -11,6 +11,6 @@ describe("dateDisplay", () => {
 describe("displayContent", () => {
   it("returns the first paragraph of content with trailing ellipsis", () => {
     const testContentString = "<p>I am some kind of text.</p>";
-    expect(displayContent(testContentString)).toBe("I am some kind of text...");
+    expect(displayContent(testContentString)).toBe("I am some kind of text....");
   });
 });

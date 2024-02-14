@@ -1,4 +1,5 @@
 nav {
+  margin-top: 2em;
   width: clamp(300px, 50vw, 420px);
   display: flex;
   align-items: center;

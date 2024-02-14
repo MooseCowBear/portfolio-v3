@@ -1,18 +1,15 @@
 .article-container {
+  margin: 2em 0;
   display: flex;
   flex-direction: column;
-  gap: 0.8em;
 }
 
 .article {
-  max-width: 1000px;
   display: flex;
   flex-direction: column;
   gap: 1em;
-  padding: 2em;
+  padding: 2em 0;
   border-radius: 10px;
-  background-color: var(--background-card);
-  box-shadow: 2px 2px 12px 1px rgba(0, 0, 0, 0.2);
 }
 
 .article .header,
@@ -34,27 +31,31 @@
 
 .article a {
   display: flex;
-  gap: 0.2em;
+  gap: 0em;
   align-items: center;
   align-self: flex-end;
   white-space: nowrap;
   text-decoration: none;
   font-size: 0.9em;
-  text-transform: lowercase;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 .article a svg {
-  height: 15px;
-  width: 15px;
+  height: 20px;
+  width: 20px;
+  transform: translateX(-4px);
 }
 
 .article .tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.8em;
+  column-gap: 0.8em;
+  row-gap: 0.4em;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 420px) {
   .article .header,
   .article .footer {
     display: grid;
