@@ -1,18 +1,27 @@
+import "../styles/projects.css";
+import { Tag } from "./Tag";
+
 type ProjectCardProps = {
   project: Project;
 };
 
 export function ProjectCard({ project }: ProjectCardProps) {
   return (
-    <div className={`${project.name} gradient`}>
+    <div
+      className={`${project.name.replace(/\s+/g, "-").toLowerCase()}-gradient rounded`}
+    >
       <section className="project-card">
         <div className="carousel-placeholder"></div>
         <div className="description">
-          <h3>{project.name}</h3>
+          <div className="header">
+            <h3>{project.name}</h3>
+            {project.wip && <Tag tag={"wip"}/>}
+          </div>
           <ul>
             {project.bullets.map((bullet) => {
               return <li>{bullet}</li>;
             })}
+            <li>{`Built with: ${project.stack.join(", ")}`}</li>
           </ul>
           <div className="links">
             <a href={project.repo} target="_blank" rel="noreferrer">

@@ -1,5 +1,12 @@
 export const projects = [
   {
+    name: "Cyrano",
+    bullets: ["A full-stack marketplace for writers"],
+    stack: ["Ruby on Rails", "PostgreSQL", "Tailwind CSS"],
+    repo: "https://github.com/MooseCowBear/cyrano",
+    wip: true,
+  },
+  {
     name: "So Social",
     bullets: [
       "A full-stack social media app",
@@ -48,37 +55,6 @@ export const projects = [
     stack: ["JavaScript", "HTML", "CSS", "Plotly.js"],
     repo: "https://github.com/MooseCowBear/plttr",
     live: "https://moosecowbear.github.io/plttr/",
-    wip: false,
-  },
-  {
-    name: "Cyrano",
-    bullets: ["A full-stack marketplace for writers"],
-    stack: ["Ruby on Rails", "PostgreSQL", "Tailwind CSS"],
-    repo: "https://github.com/MooseCowBear/cyrano",
-    wip: true,
-  },
-  {
-    name: "Where's Waldo: Dutch Masters Editiion",
-    bullets: ["A photo-tagging game with 4 levels of increasing difficulty"],
-    stack: ["React JS", "Ruby on Rails", "PostgreSQL", "CSS"],
-    repo: "https://github.com/MooseCowBear/waldo_game",
-    wip: false,
-  },
-  {
-    name: "Mini Project: Drag and drop Stimulus Controller",
-    bullets: [
-      "A Stimulus JS controller to allow reordering of elements in the DOM through drag and drop API",
-    ],
-    stack: ["Ruby on Rails"],
-    repo: "https://github.com/MooseCowBear/drag_and_drop_stimulus",
-    wip: false,
-  },
-  {
-    name: "Battleship",
-    bullets: ["An implementation of the classic board game"],
-    stack: ["JavaScript", "Tailwind CSS", "Webpack"],
-    repo: "https://github.com/MooseCowBear/odin-battleship",
-    live: "https://moosecowbear.github.io/odin-battleship/",
     wip: false,
   },
 ];

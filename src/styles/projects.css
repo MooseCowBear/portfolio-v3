@@ -1,10 +1,98 @@
-.project-container {
+.projects {
   margin: 2em 0;
   display: flex;
   flex-direction: column;
-  gap: 0.8em;
+  gap: 1em;
 }
 
-.project {
-  max-width: 1000px;
+.project-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 2rem;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: var(--background-card);
+
+  margin: 4px;
+  padding: 2vw;
+}
+
+.projects .header {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+}
+
+.projects h3 {
+  text-transform: uppercase;
+}
+
+.projects .description {
+  padding: 1rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.projects ul {
+  padding: 0;
+  list-style: inside;
+}
+
+.projects .links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rounded {
+  border-radius: 12px;
+}
+
+.so-social-gradient {
+  background-color: rgb(65, 88, 208);
+  background-image: linear-gradient(
+    43deg,
+    rgb(65, 88, 208) 0%,
+    rgb(200, 80, 192) 46%,
+    rgb(255, 204, 112) 100%
+  );
+}
+
+.chat-app-gradient {
+  background: rgb(0, 147, 233);
+  background: linear-gradient(
+    126deg,
+    rgba(0, 147, 233, 1) 0%,
+    rgba(128, 208, 199, 1) 50%
+  );
+}
+
+.shoe-quiver-gradient {
+  background: rgb(255, 107, 107);
+  background: linear-gradient(
+    112deg,
+    rgba(255, 107, 107, 1) 0%,
+    rgba(255, 230, 109, 1) 50%,
+    rgba(78, 205, 196, 1) 100%
+  );
+}
+
+.plttr-gradient {
+  background: rgb(2, 102, 112);
+  background: linear-gradient(
+    126deg,
+    rgba(2, 102, 112, 1) 0%,
+    rgba(159, 237, 215, 1) 35%,
+    rgba(252, 225, 129, 1) 100%
+  );
+}
+
+.cyrano-gradient {
+  background: rgb(2, 102, 112);
+  background: linear-gradient(
+    126deg,
+    rgba(2, 102, 112, 1) 0%,
+    rgba(159, 237, 215, 1) 50%
+  );
 }
