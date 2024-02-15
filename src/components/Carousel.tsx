@@ -2,15 +2,17 @@ import { useState } from "react";
 import { CarouselButton } from "./CarouselButton";
 import { getImages } from "../utils/carousel";
 import "../styles/carousel.css";
+import { useModeContext } from "../contexts/ModeContext";
 
 type CarouselProps = {
   project: Project;
 };
 
 export function Carousel({ project }: CarouselProps) {
+  const { dark } = useModeContext();
   const [position, setPosition] = useState(0);
   const emptyImages: Image[] = [];
-  const images = getImages(project, false) || emptyImages;
+  const images = getImages(project, dark) || emptyImages;
   const positions = [...Array(images.length).keys()];
   const image = images[position];
 
