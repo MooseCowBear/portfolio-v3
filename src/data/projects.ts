@@ -5,7 +5,15 @@ export const projects = [
     stack: ["Ruby on Rails", "PostgreSQL", "Tailwind CSS"],
     repo: "https://github.com/MooseCowBear/cyrano",
     wip: true,
-    images: { light: [], dark: [] },
+    images: {
+      light: [
+        {
+          src: "src/assets/cyrano/light/cyrano_1.jpg",
+          title: "cyrano",
+          description: "cyrano home page",
+        },
+      ],
+    },
   },
   {
     name: "So Social",
