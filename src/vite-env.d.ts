@@ -20,4 +20,16 @@ type Project = {
   repo: string;
   live?: string;
   wip: boolean;
+  images: Images;
 };
+
+type Image = {
+  src: string;
+  title: string;
+  description: string;
+};
+
+type Images = {
+  dark: Image[];
+  light: Image[];
+}
