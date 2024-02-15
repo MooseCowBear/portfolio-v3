@@ -5,8 +5,5 @@ export const getImages = (project: Project, dark: boolean) => {
   } else if (project.images.light) {
     // if light mode OR project has no dark mode
     return project.images.light;
-  } else {
-    // project has no images, shouldn't ever be in this situation
-    return [];
-  }
+  } 
 };

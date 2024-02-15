@@ -1,5 +1,6 @@
 import "../styles/projects.css";
 import { Tag } from "./Tag";
+import { Carousel } from "./Carousel";
 
 type ProjectCardProps = {
   project: Project;
@@ -8,14 +9,16 @@ type ProjectCardProps = {
 export function ProjectCard({ project }: ProjectCardProps) {
   return (
     <div
-      className={`${project.name.replace(/\s+/g, "-").toLowerCase()}-gradient rounded`}
+      className={`${project.name
+        .replace(/\s+/g, "-")
+        .toLowerCase()}-gradient rounded`}
     >
       <section className="project-card">
-        <div className="carousel-placeholder"></div>
+        <Carousel project={project} />
         <div className="description">
           <div className="header">
             <h3>{project.name}</h3>
-            {project.wip && <Tag tag={"wip"}/>}
+            {project.wip && <Tag tag={"wip"} />}
           </div>
           <ul>
             {project.bullets.map((bullet, index) => {
