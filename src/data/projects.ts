@@ -5,6 +5,7 @@ export const projects = [
     stack: ["Ruby on Rails", "PostgreSQL", "Tailwind CSS"],
     repo: "https://github.com/MooseCowBear/cyrano",
     wip: true,
+    images: { light: [], dark: [] },
   },
   {
     name: "So Social",
@@ -16,6 +17,42 @@ export const projects = [
     repo: "https://github.com/MooseCowBear/social",
     live: "https://so-social.fly.dev/",
     wip: false,
+    images: {
+      light: [
+        {
+          src: "./assets/so_social/light/so_social_1.jpg",
+          title: "so social feed",
+          description: "so social feed light theme, desktop layout",
+        },
+        {
+          src: "./assets/so_social/light/so_social_2.jpg",
+          title: "so social with menu",
+          description: "so social with menu light theme, desktop layout",
+        },
+        {
+          src: "./assets/so_social/light/so_social_3.jpg",
+          title: "so social friend requests",
+          description: "so social friend requests light theme, desktop layout",
+        },
+      ],
+      dark: [
+        {
+          src: "./assets/so_social/dark/so_social_1.jpg",
+          title: "so social feed",
+          description: "so social feed dark theme, desktop layout",
+        },
+        {
+          src: "./assets/so_social/dark/so_social_2.jpg",
+          title: "so social with menu",
+          description: "so social with menu dark theme, desktop layout",
+        },
+        {
+          src: "./assets/so_social/dark/so_social_3.jpg",
+          title: "so social friend requests",
+          description: "so social friend requests dark theme, desktop layout",
+        },
+      ],
+    },
   },
   {
     name: "Chat App",
@@ -33,6 +70,42 @@ export const projects = [
     repo: "https://github.com/MooseCowBear/chat-app",
     live: "https://dawn-sound-3814.fly.dev/",
     wip: false,
+    images: {
+      light: [
+        {
+          src: "./assets/chat_app/light/chat_app_1.jpg",
+          title: "welcome page",
+          description: "welcome page light theme, desktop layout",
+        },
+        {
+          src: "./assets/chat_app/light/chat_app_2.jpg",
+          title: "chat room",
+          description: "chat room light theme, desktop layout",
+        },
+        {
+          src: "./assets/chat_app/light/chat_app_3.jpg",
+          title: "users page",
+          description: "users page light theme, desktop view",
+        },
+      ],
+      dark: [
+        {
+          src: "./assets/chat_app/dark/chat_app_1.jpg",
+          title: "welcome page",
+          description: "welcome page dark theme, desktop layout",
+        },
+        {
+          src: "./assets/chat_app/dark/chat_app_2.jpg",
+          title: "chat room",
+          description: "chat room dark theme, desktop layout",
+        },
+        {
+          src: "./assets/chat_app/dark/chat_app_3.jpg",
+          title: "users page",
+          description: "users page dark theme, desktop view",
+        },
+      ],
+    },
   },
   {
     name: "Shoe Quiver",
@@ -44,6 +117,44 @@ export const projects = [
     repo: "https://github.com/MooseCowBear/shoe-quiver",
     live: "https://shoe-quiver.fly.dev/",
     wip: false,
+    images: {
+      light: [
+        {
+          src: "./assets/shoe_quiver/light/shoe_quiver_1.jpg",
+          title: "shoe quiver current rotation",
+          description:
+            "shoe quiver current rotation light theme, desktop layout",
+        },
+        {
+          src: "./assets/shoe_quiver/light/shoe_quiver_2.jpg",
+          title: "shoe quiver archive",
+          description: "shoe quiver archive light theme, desktop layout",
+        },
+        {
+          src: "./assets/shoe_quiver/light/shoe_quiver_3.jpg",
+          title: "shoe quiver run calendar",
+          description: "shoe quiver run calendar light theme, desktop layout",
+        },
+      ],
+      dark: [
+        {
+          src: "./assets/shoe_quiver/dark/shoe_quiver_1.jpg",
+          title: "shoe quiver current rotation",
+          description:
+            "shoe quiver current rotation dark theme, desktop layout",
+        },
+        {
+          src: "./assets/shoe_quiver/dark/shoe_quiver_2.jpg",
+          title: "shoe quiver archive",
+          description: "shoe quiver archive dark theme, desktop layout",
+        },
+        {
+          src: "./assets/shoe_quiver/dark/shoe_quiver_3.jpg",
+          title: "shoe quiver run calendar",
+          description: "shoe quiver run calendar dark theme, desktop layout",
+        },
+      ],
+    },
   },
   {
     name: "Plttr",
@@ -56,8 +167,14 @@ export const projects = [
     repo: "https://github.com/MooseCowBear/plttr",
     live: "https://moosecowbear.github.io/plttr/",
     wip: false,
+    images: {
+      light: [
+        {
+          src: "./assets/plttr/light/plttr_1.jpg",
+          title: "plttr homescreen",
+          description: "plttr homescreen",
+        },
+      ],
+    },
   },
 ];
-
-// hopefully making it easier to swap out
-export const featured = ["So Social", "Chat App", "Shoe Quiver", "Plttr"];

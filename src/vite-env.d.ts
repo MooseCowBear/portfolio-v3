@@ -30,6 +30,6 @@ type Image = {
 };
 
 type Images = {
-  dark: Image[];
-  light: Image[];
+  dark?: Image[];
+  light?: Image[];
 }
