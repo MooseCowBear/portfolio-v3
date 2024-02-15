@@ -73,6 +73,7 @@ export const projects = [
       "Ruby on Rails",
       "PostgreSQL",
       "Tailwind CSS",
+      "esbuild",
       "Cloudinary",
     ],
     repo: "https://github.com/MooseCowBear/chat-app",

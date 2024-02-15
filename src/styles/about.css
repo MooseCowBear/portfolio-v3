@@ -1,0 +1,103 @@
+.about {
+  margin: 2em 0;
+  width: 100%;
+  padding: 2em;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  border-radius: 10px;
+  box-shadow: 2px 2px 12px 1px rgba(0, 0, 0, 0.2);
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 9999px;
+  justify-self: center;
+}
+
+.about .copy {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.about p {
+  line-height: 1.2;
+}
+
+.contact {
+  margin-top: 2em;
+  grid-column: 1/3;
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.github svg {
+  height: 30px;
+  width: 30px;
+  fill: var(--accent);
+  transform: translateY(3px);
+}
+
+.email svg {
+  height: 35px;
+  width: 35px;
+  fill: var(--accent);
+}
+
+.email {
+  display: flex;
+  align-items: center;
+}
+
+.obfuscate span {
+  display: none;
+}
+
+.skill-container {
+  grid-column: 1/3;
+  padding: 0 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+}
+
+.skills > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+}
+
+.skills svg {
+  width: 40px;
+  height: 40px;
+}
+
+@media only screen and (max-width: 700px) {
+  .about {
+    grid-template-columns: 1fr;
+  }
+
+  .avatar {
+    grid-row: 1;
+  }
+
+  .skill-container {
+    grid-row: 3;
+    padding: 0;
+  }
+
+  .contact {
+    grid-column: 1;
+  }
+}
