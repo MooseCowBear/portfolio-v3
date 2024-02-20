@@ -7,3 +7,7 @@ export const displayContent = (content: string) => {
   const endParagraph = content.indexOf("</p>");
   return content.slice(startParagraph + 1, endParagraph) + "...";
 };
+
+export const formatTag = (tag: string) => {
+  return tag.replace(/-/g, " ");
+};

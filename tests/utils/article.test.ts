@@ -1,5 +1,9 @@
 import { describe, it, expect } from "vitest";
-import { dateDisplay, displayContent } from "../../src/utils/articles.ts";
+import {
+  dateDisplay,
+  displayContent,
+  formatTag,
+} from "../../src/utils/articles.ts";
 
 describe("dateDisplay", () => {
   it("returns a stringified date equal to local date representation", () => {
@@ -11,6 +15,15 @@ describe("dateDisplay", () => {
 describe("displayContent", () => {
   it("returns the first paragraph of content with trailing ellipsis", () => {
     const testContentString = "<p>I am some kind of text.</p>";
-    expect(displayContent(testContentString)).toBe("I am some kind of text....");
+    expect(displayContent(testContentString)).toBe(
+      "I am some kind of text...."
+    );
+  });
+});
+
+describe("formatTag", () => {
+  it("replaces all hyphens with spaces", () => {
+    const testTag = "i-am-something-with-hyphens";
+    expect(formatTag(testTag)).toBe("i am something with hyphens");
   });
 });

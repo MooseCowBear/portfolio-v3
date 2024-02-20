@@ -1,4 +1,4 @@
-import { dateDisplay, displayContent } from "../utils/articles";
+import { dateDisplay, displayContent, formatTag } from "../utils/articles";
 import { Tag } from "./Tag";
 import "../styles/blog.css";
 
@@ -17,7 +17,7 @@ export function ArticleCard({ article }: ArticleCardProps) {
       <div className="footer">
         <div className="tags">
           {article.categories.map((category) => {
-            return <Tag key={category} tag={category} />;
+            return <Tag key={category} tag={formatTag(category)} />;
           })}
         </div>
         <a href={article.link} target="_blank" rel="noreferrer nofollow">
