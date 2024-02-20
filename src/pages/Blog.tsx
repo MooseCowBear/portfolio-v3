@@ -1,5 +1,6 @@
 import { Articles } from "../components/Articles";
 import { useBlogContext } from "../contexts/BlogContext";
+import { Footer } from "../layouts/Footer";
 import { Navigation } from "../layouts/Navigation";
 
 export default function Blog() {
@@ -7,8 +8,11 @@ export default function Blog() {
 
   return (
     <>
-      <Navigation />
-      <Articles articles={articles} />
+      <div className="wrapper">
+        <Navigation />
+        <Articles articles={articles} />
+      </div>
+      <Footer />
     </>
   );
 }

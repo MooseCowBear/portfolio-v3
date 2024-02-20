@@ -1,11 +1,15 @@
 import { Navigation } from "../layouts/Navigation";
 import { ProjectsContainer } from "../components/ProjectsContainer";
+import { Footer } from "../layouts/Footer";
 
 export default function Projects() {
   return (
     <>
-      <Navigation />
-      <ProjectsContainer />
+      <div className="wrapper">
+        <Navigation />
+        <ProjectsContainer />
+      </div>
+      <Footer />
     </>
   );
 }
