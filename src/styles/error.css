@@ -1,0 +1,11 @@
+.error {
+  max-width: 65ch;
+  padding: 3em 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.error h1 {
+  line-height: 1.2;
+}
