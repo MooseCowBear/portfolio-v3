@@ -9,7 +9,6 @@ export default function Router() {
     {
       path: "/",
       element: <Home />,
-      errorElement: <Error />,
     },
     {
       path: "/projects",
@@ -18,6 +17,10 @@ export default function Router() {
     {
       path: "/blog",
       element: <Blog />,
+    },
+    {
+      path: "*",
+      element: <Error />,
     },
   ]);
 
