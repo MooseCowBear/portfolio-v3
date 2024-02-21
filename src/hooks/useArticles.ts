@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 
-// only want to run this if we haven't already...
 export const useArticles = () => {
   const initialArticles: Article[] = [];
   const [articles, setArticles] = useState(initialArticles);
@@ -8,7 +7,6 @@ export const useArticles = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    console.log("fetching...");
     const abortController = new AbortController();
 
     const getArticles = async () => {
@@ -39,6 +37,5 @@ export const useArticles = () => {
     };
   }, []);
 
-  console.log(articles);
   return { articles, error, loading };
 };
