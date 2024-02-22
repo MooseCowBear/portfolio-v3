@@ -4,6 +4,7 @@
   padding: 2em;
   display: grid;
   grid-template-columns: auto 1fr;
+  justify-items: center;
   border-radius: 10px;
   box-shadow: 2px 2px 12px 1px rgba(0, 0, 0, 0.2);
 }
@@ -11,10 +12,10 @@
 .avatar {
   width: 200px;
   border-radius: 9999px;
-  justify-self: center;
 }
 
 .about .copy {
+  max-width: 45ch;
   display: flex;
   flex-direction: column;
   gap: 1em;
