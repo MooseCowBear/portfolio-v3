@@ -1,11 +1,19 @@
 import { Footer } from "../layouts/Footer";
 import { Navigation } from "../layouts/Navigation";
 import "../styles/about.css";
+import { Helmet } from "react-helmet-async";
 
 export default function Home() {
   return (
     <>
       <div className="wrapper">
+        <Helmet>
+          <title>About</title>
+          <meta
+            name="description"
+            content="Web developer specializing in Ruby on Rails/React.js"
+          />
+        </Helmet>
         <Navigation />
         <div className="about">
           <img className="avatar" src="src/assets/avatar.png" alt="memoji" />
