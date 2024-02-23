@@ -1,4 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Montserrat:wght@400;700&family=Red+Hat+Display:wght@700&display=swap");
+@font-face {
+  font-family: "Red Hat Display";
+  src: local("Red Hat Display"),
+    url("/fonts/Red_Hat_Display/RedHatDisplay-VariableFont_wght.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+    url("/fonts/Montserrat/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
 
 /* reset */
 *,
@@ -119,7 +130,10 @@ body.dark-theme {
 h2,
 h3 {
   font-family: "Red Hat Display", sans-serif;
+  font-weight: 575;
+  font-variation-settings: "wght" 575;
   line-height: 1.2;
+  letter-spacing: 1px;
 }
 
 h1 {
@@ -146,8 +160,8 @@ a:focus svg {
   fill: var(--accent);
 }
 
-.footer{
-  padding: 0.5em 0;  
+.footer {
+  padding: 0.5em 0;
 }
 
 .wrapper {
