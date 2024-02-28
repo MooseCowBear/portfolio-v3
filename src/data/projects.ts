@@ -69,7 +69,7 @@ export const projects = [
       "Features: Public and private chats, text and image messages, drag-and-drop file uploads, notifications of private messages, authentication",
     ],
     stack: [
-      "React JS",
+      "React",
       "Ruby on Rails",
       "PostgreSQL",
       "Tailwind CSS",
@@ -166,6 +166,64 @@ export const projects = [
     },
   },
   {
+    name: "Where's Waldo: Dutch Masters Editiion",
+    bullets: ["A photo-tagging game with 4 levels of increasing difficulty"],
+    stack: ["React", "Ruby on Rails", "PostgreSQL", "CSS"],
+    repo: "https://github.com/MooseCowBear/waldo_game",
+    wip: false,
+    images: {
+      light: [
+        {
+          src: "src/assets/waldo/light/waldo_1.jpg",
+          title: "where's waldo: dutch master's edition",
+          description: "start screen",
+        },
+        {
+          src: "src/assets/waldo/light/waldo_2.jpg",
+          title: "where's waldo: dutch master's edition",
+          description: "level 1",
+        },
+        {
+          src: "src/assets/waldo/light/waldo_3.jpg",
+          title: "where's waldo: dutch master's edition",
+          description: "level 2 with input form",
+        },
+        {
+          src: "src/assets/waldo/light/waldo_4.jpg",
+          title: "where's waldo: dutch master's edition",
+          description: "scores screen",
+        },
+      ],
+    },
+  },
+  {
+    name: "Sure Sure Sure",
+    bullets: ["A mock online store that queries the Magic the Gathering API"],
+    stack: ["React", "Tailwind CSS", "Vite"],
+    repo: "https://github.com/MooseCowBear/odin-shopping-cart",
+    live: "https://heartfelt-paprenjak-3cf070.netlify.app",
+    wip: false,
+    images: {
+      light: [
+        {
+          src: "src/assets/sure/light/sure_1.jpg",
+          title: "sure sure sure",
+          description: "home page",
+        },
+        {
+          src: "src/assets/sure/light/sure_2.jpg",
+          title: "sure sure sure",
+          description: "products page",
+        },
+        {
+          src: "src/assets/sure/light/sure_3.jpg",
+          title: "sure sure sure",
+          description: "checkout page",
+        },
+      ],
+    },
+  },
+  {
     name: "Plttr",
     bullets: [
       "Client-side web app that allows users to perform regression fits on inputted and calculated data",
@@ -182,6 +240,45 @@ export const projects = [
           src: "src/assets/plttr/light/plttr_1.jpg",
           title: "plttr homescreen",
           description: "plttr homescreen",
+        },
+      ],
+    },
+  },
+  {
+    name: "Battleship",
+    bullets: ["An implementation of the classic board game"],
+    stack: ["JavaScript", "Tailwind CSS", "Webpack"],
+    repo: "https://github.com/MooseCowBear/odin-battleship",
+    live: "https://moosecowbear.github.io/odin-battleship/",
+    wip: false,
+    images: {
+      light: [
+        {
+          src: "src/assets/battleship/light/battleship_1.jpg",
+          title: "battleship",
+          description: "new game screen",
+        },
+        {
+          src: "src/assets/battleship/light/battleship_2.jpg",
+          title: "battleship",
+          description: "mid-game screen",
+        },
+      ],
+    },
+  },
+  {
+    name: "Todo List",
+    bullets: ["A todo list app using local storage"],
+    stack: ["JavaScript", "Webpack", "CSS"],
+    repo: "https://github.com/MooseCowBear/odin-todo",
+    live: "https://moosecowbear.github.io/odin-todo/",
+    wip: false,
+    images: {
+      light: [
+        {
+          src: "src/assets/todo_list/light/todo_1.jpg",
+          title: "todo app",
+          description: "view all tasks screen",
         },
       ],
     },
