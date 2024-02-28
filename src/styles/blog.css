@@ -57,6 +57,24 @@
   row-gap: 0.4em;
 }
 
+.no-articles {
+  display: flex;
+  gap: 0.2em;
+}
+
+.no-articles a {
+  display: flex;
+  gap: 0.2em;
+  align-items: center;
+  text-decoration: underline;
+}
+
+.no-articles svg {
+  height: 20px;
+  width: 20px;
+  fill: var(--text);
+}
+
 @media only screen and (max-width: 420px) {
   .article .header,
   .article .footer {
