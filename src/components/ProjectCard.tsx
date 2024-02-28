@@ -10,7 +10,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
   return (
     <div
       className={`gradient ${project.name
-        .replace(/\s+/g, "-")
+        .replace(/[^A-Za-z0-9]/g, "-")
         .toLowerCase()}-gradient rounded`}
     >
       <section className="project-card">
