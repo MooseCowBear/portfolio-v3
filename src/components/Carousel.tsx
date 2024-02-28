@@ -16,7 +16,7 @@ export function Carousel({ project }: CarouselProps) {
   const positions = [...Array(images.length).keys()];
   const image = images[position];
 
-  if (!image) return <div></div>;
+  if (!image) return <div></div>; // ensures card has two columns, shouldn't ever be here
 
   return (
     <div className="carousel">
