@@ -166,7 +166,7 @@ export const projects = [
     },
   },
   {
-    name: "Where's Waldo: Dutch Masters Editiion",
+    name: "Where's Waldo: Dutch Masters Edition",
     bullets: ["A photo-tagging game with 4 levels of increasing difficulty"],
     stack: ["React", "Ruby on Rails", "PostgreSQL", "CSS"],
     repo: "https://github.com/MooseCowBear/waldo_game",
@@ -206,17 +206,17 @@ export const projects = [
     images: {
       light: [
         {
-          src: "src/assets/sure/light/sure_1.jpg",
+          src: "src/assets/sure_sure_sure/light/sure_1.jpg",
           title: "sure sure sure",
           description: "home page",
         },
         {
-          src: "src/assets/sure/light/sure_2.jpg",
+          src: "src/assets/sure_sure_sure/light/sure_2.jpg",
           title: "sure sure sure",
           description: "products page",
         },
         {
-          src: "src/assets/sure/light/sure_3.jpg",
+          src: "src/assets/sure_sure_sure/light/sure_3.jpg",
           title: "sure sure sure",
           description: "checkout page",
         },
