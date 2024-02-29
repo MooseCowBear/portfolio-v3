@@ -33,6 +33,3 @@ export function ArticleCard({ article }: ArticleCardProps) {
     </div>
   );
 }
-
-// what if: make the whole card a link. svg might be better as a chevron!
-// page needs more color, can we randomly assign tag colors, possibly?
