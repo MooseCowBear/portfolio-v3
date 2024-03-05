@@ -13,7 +13,7 @@ export function Carousel({ project }: CarouselProps) {
   const [position, setPosition] = useState(0);
   const emptyImages: Image[] = [];
   const images = getImages(project, dark) || emptyImages;
-  const positions = [...Array(images.length).keys()];
+  const positions = [...Array(images.length).keys()]; // arr of indices
   const image = images[position];
 
   if (!image) return <div></div>; // ensures card has two columns, shouldn't ever be here
