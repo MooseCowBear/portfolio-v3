@@ -6,8 +6,6 @@ type ArticlesProps = {
 };
 
 export function Articles({ articles }: ArticlesProps) {
-  console.log("passed as props", articles); //TODO: remove when finished
-
   return (
     <div className="article-container">
       <h1>blog</h1>
