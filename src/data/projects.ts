@@ -124,7 +124,6 @@ export const projects = [
     ],
     stack: ["Ruby on Rails", "PostgreSQL", "Tailwind CSS"],
     repo: "https://github.com/MooseCowBear/shoe-quiver",
-    live: "https://shoe-quiver.fly.dev/",
     wip: false,
     images: {
       light: [
