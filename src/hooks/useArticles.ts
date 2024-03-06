@@ -27,7 +27,6 @@ export const useArticles = () => {
         setError(true);
       } finally {
         setLoading(false);
-        setError(false);
       }
     };
     getArticles();
