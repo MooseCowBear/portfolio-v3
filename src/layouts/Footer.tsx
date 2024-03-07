@@ -5,14 +5,14 @@ export function Footer() {
       <span role="img" aria-label="love">
         &hearts;
       </span>{" "}
-      by me.{" "}
+      and{" "}
       <a
         href="https://github.com/MooseCowBear/portfolio-v3"
         target="_blank"
         rel="noreferrer"
         aria-label="repository for this site"
       >
-        With React + TypeScript.
+        TypeScript.
       </a>
     </div>
   );
