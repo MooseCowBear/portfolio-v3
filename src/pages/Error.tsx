@@ -10,7 +10,7 @@ export default function Error() {
   return (
     <>
       <div className="wrapper">
-        <Navigation />
+        <Navigation page="error" />
         <div className="error">
           <h1>Hmm, something is not quite right...</h1>
           <p>

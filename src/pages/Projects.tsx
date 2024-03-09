@@ -14,7 +14,7 @@ export default function Projects() {
         />
       </Helmet>
       <div className="wrapper">
-        <Navigation />
+        <Navigation page="projects" />
         <ProjectsContainer />
       </div>
       <Footer />

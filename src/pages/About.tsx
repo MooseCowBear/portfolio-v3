@@ -3,7 +3,7 @@ import { Navigation } from "../layouts/Navigation";
 import "../styles/about.css";
 import { Helmet } from "react-helmet-async";
 
-export default function Home() {
+export default function About() {
   return (
     <>
       <div className="wrapper">
@@ -14,7 +14,7 @@ export default function Home() {
             content="Web developer specializing in Ruby on Rails/React.js"
           />
         </Helmet>
-        <Navigation />
+        <Navigation page="about" />
         <div className="about">
           <img className="avatar" src="src/assets/avatar.png" alt="memoji" />
           <div className="copy">

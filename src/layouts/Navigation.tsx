@@ -2,10 +2,18 @@ import { NavLink } from "react-router-dom";
 import "../styles/navigation.css";
 import { ToggleModeButton } from "../components/ToggleModeButton";
 
-export function Navigation() {
+type NavigationProps = {
+  page: string;
+};
+
+export function Navigation({ page }: NavigationProps) {
   return (
     <nav>
-      <NavLink to="/" className="nav-link" aria-label="projects">
+      <NavLink
+        to="/"
+        className={`nav-link ${page === "projects" && "selected"}`}
+        aria-label="projects"
+      >
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
           <path
             fill=""
@@ -13,7 +21,11 @@ export function Navigation() {
           />
         </svg>
       </NavLink>
-      <NavLink to="/blog" className="nav-link" aria-label="blog">
+      <NavLink
+        to="/blog"
+        className={`nav-link ${page === "blog" && "selected"}`}
+        aria-label="blog"
+      >
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
           <path
             fill=""
@@ -21,7 +33,11 @@ export function Navigation() {
           />
         </svg>
       </NavLink>
-      <NavLink to="/about" className="nav-link" aria-label="about">
+      <NavLink
+        to="/about"
+        className={`nav-link ${page === "about" && "selected"}`}
+        aria-label="about"
+      >
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
           <path
             fill=""

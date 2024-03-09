@@ -17,7 +17,7 @@ export default function Blog() {
         />
       </Helmet>
       <div className="wrapper">
-        <Navigation />
+        <Navigation page="blog" />
         <Articles articles={articles} />
       </div>
       <Footer />
