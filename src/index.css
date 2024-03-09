@@ -168,4 +168,5 @@ a:focus svg {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: calc(43px + 2em);
 }
