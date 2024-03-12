@@ -15,6 +15,12 @@ export default function Projects() {
       </Helmet>
       <div className="wrapper">
         <Navigation page="projects" />
+        <div className="hero">
+          <div>
+            <h2 id="hello">Hello, I&apos;m Alisa</h2>
+            <p>I build things with code, mostly for the web.</p>
+          </div>
+        </div>
         <ProjectsContainer />
       </div>
       <Footer />
