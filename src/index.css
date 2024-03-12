@@ -82,6 +82,7 @@ body {
   --background-body: rgba(244, 244, 244, 1);
   --background-card: rgb(255, 255, 255);
   --background-icons: rgb(61, 61, 61);
+  --icons-text: rgb(255, 255, 255);
   --text: rgb(20, 20, 20);
   --accent: rgb(65, 88, 208);
   --accent-secondary: rgba(64, 224, 208, 1);
@@ -105,7 +106,8 @@ body.dark-theme {
   --text: rgba(255, 255, 255, 1);
   --background-body: rgb(40, 40, 40);
   --background-card: rgb(61, 61, 61);
-  --background-icons: rgba(255, 255, 255, 0.9);
+  --background-icons: rgb(103, 103, 103); /* don't like... */
+  --icons-text: rgba(255, 255, 255, 1);
   --accent: rgba(64, 224, 208, 1);
   --accent-secondary: rgb(65, 88, 208);
   --accent-selected: rgb(208, 64, 224);
