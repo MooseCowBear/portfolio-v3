@@ -8,7 +8,7 @@ export const projects = [
     images: {
       light: [
         {
-          src: "src/assets/cyrano/light/cyrano_1.jpg",
+          src: "/assets/cyrano/light/cyrano_1.jpg",
           title: "cyrano",
           description: "cyrano home page",
         },
@@ -35,34 +35,34 @@ export const projects = [
     images: {
       light: [
         {
-          src: "src/assets/chat_app/light/chat_app_1.jpg",
+          src: "/assets/chat_app/light/chat_app_1.jpg",
           title: "welcome page",
           description: "welcome page light theme, desktop layout",
         },
         {
-          src: "src/assets/chat_app/light/chat_app_2.jpg",
+          src: "/assets/chat_app/light/chat_app_2.jpg",
           title: "chat room",
           description: "chat room light theme, desktop layout",
         },
         {
-          src: "src/assets/chat_app/light/chat_app_3.jpg",
+          src: "/assets/chat_app/light/chat_app_3.jpg",
           title: "users page",
           description: "users page light theme, desktop view",
         },
       ],
       dark: [
         {
-          src: "src/assets/chat_app/dark/chat_app_1.jpg",
+          src: "/assets/chat_app/dark/chat_app_1.jpg",
           title: "welcome page",
           description: "welcome page dark theme, desktop layout",
         },
         {
-          src: "src/assets/chat_app/dark/chat_app_2.jpg",
+          src: "/assets/chat_app/dark/chat_app_2.jpg",
           title: "chat room",
           description: "chat room dark theme, desktop layout",
         },
         {
-          src: "src/assets/chat_app/dark/chat_app_3.jpg",
+          src: "/assets/chat_app/dark/chat_app_3.jpg",
           title: "users page",
           description: "users page dark theme, desktop view",
         },
@@ -82,34 +82,34 @@ export const projects = [
     images: {
       light: [
         {
-          src: "src/assets/so_social/light/so_social_1.jpg",
+          src: "/assets/so_social/light/so_social_1.jpg",
           title: "so social feed",
           description: "so social feed light theme, desktop layout",
         },
         {
-          src: "src/assets/so_social/light/so_social_2.jpg",
+          src: "/assets/so_social/light/so_social_2.jpg",
           title: "so social with menu",
           description: "so social with menu light theme, desktop layout",
         },
         {
-          src: "src/assets/so_social/light/so_social_3.jpg",
+          src: "/assets/so_social/light/so_social_3.jpg",
           title: "so social friend requests",
           description: "so social friend requests light theme, desktop layout",
         },
       ],
       dark: [
         {
-          src: "src/assets/so_social/dark/so_social_1.jpg",
+          src: "/assets/so_social/dark/so_social_1.jpg",
           title: "so social feed",
           description: "so social feed dark theme, desktop layout",
         },
         {
-          src: "src/assets/so_social/dark/so_social_2.jpg",
+          src: "/assets/so_social/dark/so_social_2.jpg",
           title: "so social with menu",
           description: "so social with menu dark theme, desktop layout",
         },
         {
-          src: "src/assets/so_social/dark/so_social_3.jpg",
+          src: "/assets/so_social/dark/so_social_3.jpg",
           title: "so social friend requests",
           description: "so social friend requests dark theme, desktop layout",
         },
@@ -128,36 +128,36 @@ export const projects = [
     images: {
       light: [
         {
-          src: "src/assets/shoe_quiver/light/shoe_quiver_1.jpg",
+          src: "/assets/shoe_quiver/light/shoe_quiver_1.jpg",
           title: "shoe quiver current rotation",
           description:
             "shoe quiver current rotation light theme, desktop layout",
         },
         {
-          src: "src/assets/shoe_quiver/light/shoe_quiver_2.jpg",
+          src: "/assets/shoe_quiver/light/shoe_quiver_2.jpg",
           title: "shoe quiver archive",
           description: "shoe quiver archive light theme, desktop layout",
         },
         {
-          src: "src/assets/shoe_quiver/light/shoe_quiver_3.jpg",
+          src: "/assets/shoe_quiver/light/shoe_quiver_3.jpg",
           title: "shoe quiver run calendar",
           description: "shoe quiver run calendar light theme, desktop layout",
         },
       ],
       dark: [
         {
-          src: "src/assets/shoe_quiver/dark/shoe_quiver_1.jpg",
+          src: "/assets/shoe_quiver/dark/shoe_quiver_1.jpg",
           title: "shoe quiver current rotation",
           description:
             "shoe quiver current rotation dark theme, desktop layout",
         },
         {
-          src: "src/assets/shoe_quiver/dark/shoe_quiver_2.jpg",
+          src: "/assets/shoe_quiver/dark/shoe_quiver_2.jpg",
           title: "shoe quiver archive",
           description: "shoe quiver archive dark theme, desktop layout",
         },
         {
-          src: "src/assets/shoe_quiver/dark/shoe_quiver_3.jpg",
+          src: "/assets/shoe_quiver/dark/shoe_quiver_3.jpg",
           title: "shoe quiver run calendar",
           description: "shoe quiver run calendar dark theme, desktop layout",
         },
@@ -173,22 +173,22 @@ export const projects = [
     images: {
       light: [
         {
-          src: "src/assets/waldo/light/waldo_1.jpg",
+          src: "/assets/waldo/light/waldo_1.jpg",
           title: "where's waldo: dutch master's edition",
           description: "start screen",
         },
         {
-          src: "src/assets/waldo/light/waldo_2.jpg",
+          src: "/assets/waldo/light/waldo_2.jpg",
           title: "where's waldo: dutch master's edition",
           description: "level 1",
         },
         {
-          src: "src/assets/waldo/light/waldo_3.jpg",
+          src: "/assets/waldo/light/waldo_3.jpg",
           title: "where's waldo: dutch master's edition",
           description: "level 2 with input form",
         },
         {
-          src: "src/assets/waldo/light/waldo_4.jpg",
+          src: "/assets/waldo/light/waldo_4.jpg",
           title: "where's waldo: dutch master's edition",
           description: "scores screen",
         },
