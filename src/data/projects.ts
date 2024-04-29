@@ -30,6 +30,7 @@ export const projects = [
       "Cloudinary",
     ],
     repo: "https://github.com/MooseCowBear/mercury",
+    live: "https://mercury-messaging.fly.dev",
     wip: false,
     images: {
       light: [

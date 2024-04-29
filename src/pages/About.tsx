@@ -58,5 +58,3 @@ export default function About() {
     </>
   );
 }
-
-//<img className="avatar" src="src/assets/avatar.png" alt="memoji" />
