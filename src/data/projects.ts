@@ -16,60 +16,6 @@ export const projects = [
     },
   },
   {
-    name: "Chat App",
-    bullets: [
-      "A full-stack messaging app using WebSockets",
-      "Features: Public and private chats, text and image messages, drag-and-drop file uploads, notifications of private messages, authentication",
-    ],
-    stack: [
-      "React",
-      "Ruby on Rails",
-      "PostgreSQL",
-      "Tailwind CSS",
-      "esbuild",
-      "Cloudinary",
-    ],
-    repo: "https://github.com/MooseCowBear/chat-app",
-    live: "https://dawn-sound-3814.fly.dev/",
-    wip: false,
-    images: {
-      light: [
-        {
-          src: "/assets/chat_app/light/chat_app_1.jpg",
-          title: "welcome page",
-          description: "welcome page light theme, desktop layout",
-        },
-        {
-          src: "/assets/chat_app/light/chat_app_2.jpg",
-          title: "chat room",
-          description: "chat room light theme, desktop layout",
-        },
-        {
-          src: "/assets/chat_app/light/chat_app_3.jpg",
-          title: "users page",
-          description: "users page light theme, desktop view",
-        },
-      ],
-      dark: [
-        {
-          src: "/assets/chat_app/dark/chat_app_1.jpg",
-          title: "welcome page",
-          description: "welcome page dark theme, desktop layout",
-        },
-        {
-          src: "/assets/chat_app/dark/chat_app_2.jpg",
-          title: "chat room",
-          description: "chat room dark theme, desktop layout",
-        },
-        {
-          src: "/assets/chat_app/dark/chat_app_3.jpg",
-          title: "users page",
-          description: "users page dark theme, desktop view",
-        },
-      ],
-    },
-  },
-  {
     name: "Mercury Messaging",
     bullets: [
       "A full-stack messaging app using WebSockets",
