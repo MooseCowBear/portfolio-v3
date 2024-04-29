@@ -70,6 +70,59 @@ export const projects = [
     },
   },
   {
+    name: "Mercury Messaging",
+    bullets: [
+      "A full-stack messaging app using WebSockets",
+      "Features: Public and private chats, text and image messages, drag-and-drop file uploads, notifications of private messages, authentication",
+    ],
+    stack: [
+      "React",
+      "Ruby on Rails",
+      "PostgreSQL",
+      "Tailwind CSS",
+      "esbuild",
+      "Cloudinary",
+    ],
+    repo: "https://github.com/MooseCowBear/mercury",
+    wip: false,
+    images: {
+      light: [
+        {
+          src: "/assets/mercury_messaging/light/mercury_messaging_1.jpg",
+          title: "public chat",
+          description: "example of public chat, desktop layout",
+        },
+        {
+          src: "/assets/mercury_messaging/light/mercury_messaging_2.jpg",
+          title: "private chat",
+          description: "example of private chat, desktop layout",
+        },
+        {
+          src: "/assets/mercury_messaging/light/mercury_messaging_3.jpg",
+          title: "group message",
+          description: "selecting users for group message",
+        },
+      ],
+      dark: [
+        {
+          src: "/assets/mercury_messaging/dark/mercury_messaging_1.jpg",
+          title: "public chat page",
+          description: "example of public chat",
+        },
+        {
+          src: "/assets/mercury_messaging/dark/mercury_messaging_2.jpg",
+          title: "private chat",
+          description: "example of private chat, desktop layout",
+        },
+        {
+          src: "/assets/mercury_messaging/dark/mercury_messaging_3.jpg",
+          title: "group message",
+          description: "selecting users for group message",
+        },
+      ],
+    },
+  },
+  {
     name: "So Social",
     bullets: [
       "A full-stack social media app",

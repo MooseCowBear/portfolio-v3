@@ -119,6 +119,15 @@
   );
 }
 
+.mercury-messaging-gradient {
+  background-color: rgb(208, 64, 224);
+  background: linear-gradient(
+    126deg,
+    rgb(243, 207, 247) 0%,
+    rgb(208, 64, 224) 50%
+  );
+}
+
 .chat-app-gradient {
   background: rgb(0, 147, 233);
   background: linear-gradient(
